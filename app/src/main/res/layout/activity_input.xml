@@ -29,6 +29,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selesai"
+        android:text="Masukkan"
         android:id="@+id/buttonFinish" />
 </LinearLayout>

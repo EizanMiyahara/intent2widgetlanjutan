@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        onActivityResult();
 
         findViewById(R.id.buttonInput).setOnClickListener(new View.OnClickListener() {
                                                               @Override
@@ -26,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
-       @Override
+
+    @Override
         protected void onActivityResult(int requestCode, int resultCode, Intent data)
         {
             super.onActivityResult(requestCode, resultCode, data);
@@ -42,6 +42,3 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-
-}
